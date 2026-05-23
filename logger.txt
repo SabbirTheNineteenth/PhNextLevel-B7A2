@@ -1,0 +1,84 @@
+[2026-05-23T11:35:55.924Z] [INFO ] [Server] DevPulse running on port 3000 (development)
+[2026-05-23T11:35:56.351Z] [ERROR] [DB] Connection failed: Connection terminated due to connection timeout
+[2026-05-23T11:39:05.425Z] [INFO ] [Server] DevPulse running on port 3000 (development)
+[2026-05-23T11:39:08.317Z] [INFO ] [DB] Connected to NeonDB successfully
+[2026-05-23T11:40:50.764Z] [INFO ] [Request] GET /api/users
+[2026-05-23T11:40:52.247Z] [INFO ] [Request] GET /api/users
+[2026-05-23T11:42:45.288Z] [INFO ] [Request] POST /api/auth/signup
+[2026-05-23T11:48:56.497Z] [INFO ] [Server] DevPulse running on port 3000 (development)
+[2026-05-23T11:48:56.991Z] [INFO ] [Server] DevPulse running on port 3000 (development)
+[2026-05-23T11:48:59.151Z] [INFO ] [DB] Connected to NeonDB successfully
+[2026-05-23T11:48:59.768Z] [INFO ] [DB] Connected to NeonDB successfully
+[2026-05-23T11:49:08.035Z] [INFO ] [Request] POST /api/auth/signup
+[2026-05-23T11:49:09.189Z] [INFO ] [Auth] New user registered: john.doe@devpulse.com (contributor)
+[2026-05-23T11:52:19.278Z] [INFO ] [Request] POST /api/auth/login
+[2026-05-23T11:52:22.455Z] [INFO ] [Auth] User logged in: john.doe@devpulse.com
+[2026-05-23T11:57:31.195Z] [INFO ] [Request] POST /api/issues
+[2026-05-23T11:57:31.198Z] [WARN ] [Auth] Invalid or expired token — POST /api/issues
+[2026-05-23T12:01:50.218Z] [INFO ] [Request] POST /api/auth/login
+[2026-05-23T12:01:54.411Z] [INFO ] [Auth] User logged in: john.doe@devpulse.com
+[2026-05-23T12:04:08.732Z] [INFO ] [Request] POST /api/issues
+[2026-05-23T12:04:11.611Z] [INFO ] [Issues] Created issue #1 by user 1
+[2026-05-23T12:20:23.945Z] [INFO ] [Request] GET /api/issues?sort=newest,%20oldest&type=bug,%20feature_request&status=open,%20in_progress,%20resolved
+[2026-05-23T12:23:33.252Z] [INFO ] [Request] GET /api/issues?sort=newest,%20oldest
+[2026-05-23T12:28:45.072Z] [INFO ] [Server] DevPulse running on port 3000 (development)
+[2026-05-23T12:28:45.106Z] [INFO ] [Server] DevPulse running on port 3000 (development)
+[2026-05-23T12:28:47.443Z] [INFO ] [DB] Connected to NeonDB successfully
+[2026-05-23T12:28:47.443Z] [INFO ] [DB] Connected to NeonDB successfully
+[2026-05-23T12:28:52.091Z] [INFO ] [Request] GET /api/issues?sort=newest,%20oldest
+[2026-05-23T12:31:36.796Z] [INFO ] [Request] GET /api/issues?type=bug,%20feature_request
+[2026-05-23T12:31:46.524Z] [INFO ] [Request] GET /api/issues?status=open,%20in_progress,%20resolved
+[2026-05-23T12:33:00.435Z] [INFO ] [Request] GET /api/issues?sort=newest
+[2026-05-23T12:33:17.598Z] [INFO ] [Request] GET /api/issues?sort=oldest
+[2026-05-23T12:37:45.527Z] [INFO ] [Request] GET /api/issues/:id
+[2026-05-23T12:38:33.811Z] [INFO ] [Request] GET /api/issues/1
+[2026-05-23T12:39:39.517Z] [INFO ] [Request] GET /api/issues/100
+[2026-05-23T12:39:54.997Z] [INFO ] [Request] GET /api/issues/3
+[2026-05-23T12:40:04.004Z] [INFO ] [Request] GET /api/issues/1
+[2026-05-23T12:41:46.495Z] [INFO ] [Request] GET /api/issues/2
+[2026-05-23T12:43:03.346Z] [INFO ] [Request] GET /api/issues/2
+[2026-05-23T13:37:39.991Z] [INFO ] [Server] DevPulse running on port 3000 (development)
+[2026-05-23T13:37:42.488Z] [INFO ] [DB] Connected to NeonDB successfully
+[2026-05-23T13:37:49.853Z] [INFO ] [Request] GET /api/auth/login
+[2026-05-23T13:38:07.224Z] [INFO ] [Request] GET /api/auth/login
+[2026-05-23T13:38:26.146Z] [INFO ] [Request] POST /api/auth/login
+[2026-05-23T13:38:28.635Z] [INFO ] [Auth] User logged in: john.doe@devpulse.com
+[2026-05-23T13:39:49.593Z] [INFO ] [Request] PATCH /api/issues/1
+[2026-05-23T13:39:52.085Z] [INFO ] [Issues] Updated issue #1 by user 1
+[2026-05-23T13:42:35.925Z] [INFO ] [Request] DELETE /api/issues/1
+[2026-05-23T13:45:06.010Z] [INFO ] [Request] DELETE /api/issues/1
+[2026-05-23T13:45:07.581Z] [INFO ] [Request] DELETE /api/issues/1
+[2026-05-23T13:51:56.542Z] [INFO ] [Request] POST /api/auth/signup
+[2026-05-23T13:52:26.709Z] [INFO ] [Request] POST /api/auth/signup
+[2026-05-23T13:52:27.329Z] [INFO ] [Auth] New user registered: sabbir@webdev.com (maintainer)
+[2026-05-23T13:53:37.142Z] [INFO ] [Request] GET /api/auth/login
+[2026-05-23T13:53:54.240Z] [INFO ] [Request] POST /api/auth/login
+[2026-05-23T13:53:56.936Z] [INFO ] [Auth] User logged in: sabbir@webdev.com
+[2026-05-23T13:54:26.728Z] [INFO ] [Request] DELETE /api/issues/2
+[2026-05-23T13:54:38.941Z] [INFO ] [Request] DELETE /api/issues/1
+[2026-05-23T13:54:39.589Z] [INFO ] [Issues] Deleted issue #1 by maintainer 2
+[2026-05-23T13:55:00.480Z] [INFO ] [Request] DELETE /api/issues/1
+[2026-05-23T13:59:18.510Z] [INFO ] [Request] POST /api/issues
+[2026-05-23T13:59:20.324Z] [INFO ] [Issues] Created issue #2 by user 2
+[2026-05-23T13:59:25.929Z] [INFO ] [Request] POST /api/issues
+[2026-05-23T13:59:26.162Z] [INFO ] [Issues] Created issue #3 by user 2
+[2026-05-23T13:59:27.521Z] [INFO ] [Request] POST /api/issues
+[2026-05-23T13:59:27.754Z] [INFO ] [Issues] Created issue #4 by user 2
+[2026-05-23T13:59:28.885Z] [INFO ] [Request] POST /api/issues
+[2026-05-23T13:59:29.120Z] [INFO ] [Issues] Created issue #5 by user 2
+[2026-05-23T13:59:30.210Z] [INFO ] [Request] POST /api/issues
+[2026-05-23T13:59:30.443Z] [INFO ] [Issues] Created issue #6 by user 2
+[2026-05-23T13:59:31.575Z] [INFO ] [Request] POST /api/issues
+[2026-05-23T13:59:31.807Z] [INFO ] [Issues] Created issue #7 by user 2
+[2026-05-23T13:59:33.069Z] [INFO ] [Request] POST /api/issues
+[2026-05-23T13:59:33.307Z] [INFO ] [Issues] Created issue #8 by user 2
+[2026-05-23T13:59:34.169Z] [INFO ] [Request] POST /api/issues
+[2026-05-23T13:59:34.404Z] [INFO ] [Issues] Created issue #9 by user 2
+[2026-05-23T13:59:35.410Z] [INFO ] [Request] POST /api/issues
+[2026-05-23T13:59:35.643Z] [INFO ] [Issues] Created issue #10 by user 2
+[2026-05-23T13:59:36.726Z] [INFO ] [Request] POST /api/issues
+[2026-05-23T13:59:36.960Z] [INFO ] [Issues] Created issue #11 by user 2
+[2026-05-23T13:59:38.261Z] [INFO ] [Request] POST /api/issues
+[2026-05-23T13:59:38.494Z] [INFO ] [Issues] Created issue #12 by user 2
+[2026-05-23T13:59:40.993Z] [INFO ] [Request] POST /api/issues
+[2026-05-23T13:59:41.226Z] [INFO ] [Issues] Created issue #13 by user 2
