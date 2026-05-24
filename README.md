@@ -34,21 +34,21 @@ A collaborative platform for software teams to report bugs, suggest features, an
 ---
 
 ## Project Structure
+```text
 src/
 ├── app.ts
 ├── server.ts
-├── config/          # Database and environment config
-├── constants/       # Roles, issue types, issue statuses
-├── interfaces/      # TypeScript entity interfaces
-├── types/           # Request and response types
-├── middleware/      # Auth, role, and error middleware
-├── utils/           # Logger, JWT, hash, validation, response helpers
-├── routes/          # Central route aggregator
+├── config/             # Database and environment config
+├── constants/          # Roles, issue types, issue statuses
+├── interfaces/         # TypeScript entity interfaces
+├── types/              # Request and response types
+├── middleware/         # Auth, role, and error middleware
+├── utils/              # Logger, JWT, hash, validation, response helpers
+├── routes/             # Central route aggregator
 └── modules/
-├── auth/        # Signup and login
-└── issues/      # Issue CRUD
-
----
+    ├── auth/           # Signup and login
+    └── issues/         # Issue CRUD
+```
 
 ## Database Schema
 
