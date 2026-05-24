@@ -8,6 +8,8 @@ function timestamp(): string {
 }
 
 function writeToFile(level: string, message: string): void {
+  // Skip file writing in production — Vercel filesystem is read-only
+  if (process.env["NODE_ENV"] === "production") return;
   const line = `[${timestamp()}] [${level}] ${message}\n`;
   fs.appendFileSync(LOG_FILE, line, "utf-8");
 }
